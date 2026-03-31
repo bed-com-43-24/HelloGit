@@ -8,22 +8,27 @@ int main(){
     {
         
     case 1: 
+        cout << daysUntilExpiration<<endl;
         cout <<"Your subcription expires soon, Renew now!"<<endl;
         break;
     
     case 2:
+        cout << daysUntilExpiration<<endl;;
         cout <<"Your subscription Expires in:"<<daysUntilExpiration<<"Renew now and save 10%"<<endl;
         break;
     
     case 3:
+        cout << daysUntilExpiration<<endl;
         cout <<"your subcription expires in a day"<<endl;
         break;
     
     case 4: 
+        cout << daysUntilExpiration<<endl;
         cout <<"you have an active subscription"<<endl;
         break;
 
         default:
+            cout << daysUntilExpiration<<endl;;
         cout<<"your subcription has expired"<<endl;
     
 
