@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Main Function of the program
 int main() {
     Box Box1;  //Declare Box1 of type Box
@@ -33,4 +34,18 @@ int main() {
 
 
 
+=======
+#include <iostream>
+#include "Rectangle.h"
+#include "Triangle.h"
+using namespace std;
+int main() {
+Rectangle rect;
+Triangle trgl;
+rect.SetValues(4,5);
+trgl.SetValues (4,5);
+cout << rect.Area() << '\n';
+cout << trgl.Area() << '\n';
+return 0;
+>>>>>>> 098fee4a4388efd4c52e2b00686ad0d33dcfbd8d
 }
